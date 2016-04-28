@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
@@ -34,9 +33,14 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
     func setupData() {
         let manager = AFHTTPSessionManager()
         manager.GET("http://news-at.zhihu.com/api/4/stories/latest?client=0", parameters: nil, success: { (task, data) -> Void in
-            print(data)
 //            print(data)
-            print(object_getClass(data))
+//            print(data)
+//            print(object_getClass(data))
+            
+//            var di = data as! NSDictionary
+            
+            let dic = Home.modelObjectWithDictionary(data as! [NSObject : AnyObject])
+            print(dic)
             
             }) { (task, error) -> Void in
                 print(error)

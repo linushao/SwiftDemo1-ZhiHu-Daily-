@@ -15,6 +15,9 @@
 		0B998C8F1CD1C0A900FE51F3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B998C8E1CD1C0A900FE51F3 /* MapViewController.swift */; };
 		0B998C931CD1DC9100FE51F3 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B998C921CD1DC9100FE51F3 /* ViewController2.m */; };
 		138C47D4A7E313A91D3A6B46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4EC037801B98FA2FA4D5F /* libPods.a */; };
+		50C85A611CD2777100DEA1BE /* TopStories.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C85A5A1CD2777100DEA1BE /* TopStories.m */; };
+		50C85A621CD2777100DEA1BE /* Stories.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C85A5C1CD2777100DEA1BE /* Stories.m */; };
+		50C85A631CD2777100DEA1BE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C85A5F1CD2777100DEA1BE /* Home.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,13 @@
 		0B998C911CD1DC9100FE51F3 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		0B998C921CD1DC9100FE51F3 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		0E6EB3907B27310B1F955FEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		50C85A5A1CD2777100DEA1BE /* TopStories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopStories.m; sourceTree = "<group>"; };
+		50C85A5B1CD2777100DEA1BE /* TopStories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStories.h; sourceTree = "<group>"; };
+		50C85A5C1CD2777100DEA1BE /* Stories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stories.m; sourceTree = "<group>"; };
+		50C85A5D1CD2777100DEA1BE /* Stories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stories.h; sourceTree = "<group>"; };
+		50C85A5E1CD2777100DEA1BE /* HomeDataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataModels.h; sourceTree = "<group>"; };
+		50C85A5F1CD2777100DEA1BE /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		50C85A601CD2777100DEA1BE /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		6BB4EC037801B98FA2FA4D5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58ADB243123DDC330AAEBFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +77,7 @@
 		0B57B9431CCF5F5E0096D3E1 /* SwiftDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				50C85A501CD2759700DEA1BE /* Model */,
 				0B57B9441CCF5F5E0096D3E1 /* AppDelegate.swift */,
 				0B57B9461CCF5F5E0096D3E1 /* ViewController.swift */,
 				0B998C8E1CD1C0A900FE51F3 /* MapViewController.swift */,
@@ -79,6 +90,28 @@
 				0B998C901CD1DC9100FE51F3 /* SwiftDemo1-Bridging-Header.h */,
 			);
 			path = SwiftDemo1;
+			sourceTree = "<group>";
+		};
+		50C85A501CD2759700DEA1BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50C85A591CD2776900DEA1BE /* Home */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50C85A591CD2776900DEA1BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				50C85A5A1CD2777100DEA1BE /* TopStories.m */,
+				50C85A5B1CD2777100DEA1BE /* TopStories.h */,
+				50C85A5C1CD2777100DEA1BE /* Stories.m */,
+				50C85A5D1CD2777100DEA1BE /* Stories.h */,
+				50C85A5E1CD2777100DEA1BE /* HomeDataModels.h */,
+				50C85A5F1CD2777100DEA1BE /* Home.m */,
+				50C85A601CD2777100DEA1BE /* Home.h */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 		5E627A847B992FB60AD8D07E /* Pods */ = {
@@ -205,9 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B57B9471CCF5F5E0096D3E1 /* ViewController.swift in Sources */,
+				50C85A621CD2777100DEA1BE /* Stories.m in Sources */,
+				50C85A631CD2777100DEA1BE /* Home.m in Sources */,
 				0B998C931CD1DC9100FE51F3 /* ViewController2.m in Sources */,
 				0B998C8F1CD1C0A900FE51F3 /* MapViewController.swift in Sources */,
 				0B57B9451CCF5F5E0096D3E1 /* AppDelegate.swift in Sources */,
+				50C85A611CD2777100DEA1BE /* TopStories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

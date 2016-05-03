@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2BA2271CD3116200EA9CB7 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2BA2261CD3116200EA9CB7 /* HomeTableViewCell.swift */; };
 		0B57B9451CCF5F5E0096D3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57B9441CCF5F5E0096D3E1 /* AppDelegate.swift */; };
 		0B57B9471CCF5F5E0096D3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B57B9461CCF5F5E0096D3E1 /* ViewController.swift */; };
 		0B57B94A1CCF5F5E0096D3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B57B9481CCF5F5E0096D3E1 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		0B57B94F1CCF5F5E0096D3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B57B94D1CCF5F5E0096D3E1 /* LaunchScreen.storyboard */; };
 		0B998C8F1CD1C0A900FE51F3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B998C8E1CD1C0A900FE51F3 /* MapViewController.swift */; };
 		0B998C931CD1DC9100FE51F3 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B998C921CD1DC9100FE51F3 /* ViewController2.m */; };
+		0BF443481CD8A6C70074A218 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF443471CD8A6C70074A218 /* 1.jpg */; };
 		138C47D4A7E313A91D3A6B46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4EC037801B98FA2FA4D5F /* libPods.a */; };
 		50C85A611CD2777100DEA1BE /* TopStories.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C85A5A1CD2777100DEA1BE /* TopStories.m */; };
 		50C85A621CD2777100DEA1BE /* Stories.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C85A5C1CD2777100DEA1BE /* Stories.m */; };
@@ -21,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2BA2261CD3116200EA9CB7 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		0B57B9411CCF5F5E0096D3E1 /* SwiftDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B57B9441CCF5F5E0096D3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B57B9461CCF5F5E0096D3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		0B998C901CD1DC9100FE51F3 /* SwiftDemo1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo1-Bridging-Header.h"; sourceTree = "<group>"; };
 		0B998C911CD1DC9100FE51F3 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		0B998C921CD1DC9100FE51F3 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		0BF443471CD8A6C70074A218 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		0E6EB3907B27310B1F955FEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		50C85A5A1CD2777100DEA1BE /* TopStories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopStories.m; sourceTree = "<group>"; };
 		50C85A5B1CD2777100DEA1BE /* TopStories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStories.h; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 				50C85A501CD2759700DEA1BE /* Model */,
 				0B57B9441CCF5F5E0096D3E1 /* AppDelegate.swift */,
 				0B57B9461CCF5F5E0096D3E1 /* ViewController.swift */,
+				0B2BA2261CD3116200EA9CB7 /* HomeTableViewCell.swift */,
 				0B998C8E1CD1C0A900FE51F3 /* MapViewController.swift */,
 				0B998C911CD1DC9100FE51F3 /* ViewController2.h */,
 				0B998C921CD1DC9100FE51F3 /* ViewController2.m */,
@@ -87,6 +92,7 @@
 				0B57B94B1CCF5F5E0096D3E1 /* Assets.xcassets */,
 				0B57B94D1CCF5F5E0096D3E1 /* LaunchScreen.storyboard */,
 				0B57B9501CCF5F5E0096D3E1 /* Info.plist */,
+				0BF443471CD8A6C70074A218 /* 1.jpg */,
 				0B998C901CD1DC9100FE51F3 /* SwiftDemo1-Bridging-Header.h */,
 			);
 			path = SwiftDemo1;
@@ -192,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B57B94F1CCF5F5E0096D3E1 /* LaunchScreen.storyboard in Resources */,
+				0BF443481CD8A6C70074A218 /* 1.jpg in Resources */,
 				0B57B94C1CCF5F5E0096D3E1 /* Assets.xcassets in Resources */,
 				0B57B94A1CCF5F5E0096D3E1 /* Main.storyboard in Resources */,
 			);
@@ -243,6 +250,7 @@
 				0B998C931CD1DC9100FE51F3 /* ViewController2.m in Sources */,
 				0B998C8F1CD1C0A900FE51F3 /* MapViewController.swift in Sources */,
 				0B57B9451CCF5F5E0096D3E1 /* AppDelegate.swift in Sources */,
+				0B2BA2271CD3116200EA9CB7 /* HomeTableViewCell.swift in Sources */,
 				50C85A611CD2777100DEA1BE /* TopStories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
